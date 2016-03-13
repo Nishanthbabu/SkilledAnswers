@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/top_news_open_fontsettingId"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:icon="@drawable/share_icon"
+        android:id="@+id/top_news_share_icon"
+        android:title="Share"
+        app:showAsAction="always" />
+
+    <item android:icon="@drawable/comment_icon"
+        android:id="@+id/top_news_comment_icon" android:title="Comment"
+        app:showAsAction="always" />
+
+
+</menu>
